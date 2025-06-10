@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<p id="id"></p>
+<script>
+    var a = window.prompt("enter marks");
+    switch(true){
+        case (a>90):
+            document.getElementById("id").innerHTML="A garde";
+            break;
+        case(a<=90 && a>80):
+            document.getElementById("id").innerHTML="B garde";
+            break;
+        default:
+            document.getElementById("id").innerHTML="F garde";
+    }
+</script>    
+</body>
+</html>

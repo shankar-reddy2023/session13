@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <p id="id"></p>
+    <script>
+        var a = window.prompt("enter text");
+        var b = window.prompt("enter number of times");
+        for (let i = 1; i <= b; i++) {
+            document.getElementById("id").innerHTML+=i+"."+a+"<br>";
+        }
+    </script>
+</body>
+</html>
